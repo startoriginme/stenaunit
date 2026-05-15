@@ -1,7 +1,7 @@
 import { createClient } from "@/lib/supabase/server"
 import { PostsList } from "@/components/posts-list"
 import { WriteModal } from "@/components/write-modal"
-import { DisclaimerModal } from "@/components/disclaimer-modal"
+import DisclaimerModal from "@/components/disclaimer-modal"  // без фигурных скобок
 
 export const dynamic = "force-dynamic"
 
